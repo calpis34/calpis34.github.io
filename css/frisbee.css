@@ -1,0 +1,51 @@
+body {
+    padding: 5px;
+    margin: 5px;
+}
+
+header {
+    background-image: url(../image/flywheel.jpg);
+    background-size: cover;
+    /*cover可以讓圖片延展整個螢幕*/
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    /*字體置中*/
+    color: #FFFFFF;
+    /*字體顏色,直接color就好*/
+    text-transform: uppercase;
+    /*讓字全部變成大寫*/
+    margin: 10px 10px 50px 10px;
+    /*上右下左*/
+}
+
+nav {
+    text-align: center;
+}
+
+
+/*空格,選nav下全部的a*/
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif arial times;
+    /*選字體*/
+    color: #30C5EC;
+    background-color: rgba(204, 204, 204, 0.7);
+    /*opacity: 0.7;*/
+    /*opacity讓文字方塊透明化*/
+    margin: 3%;
+    padding: 10px 50px;
+    border-radius: 10px;
+    /*先調整上下,後調整左右*/
+    ;
+}
+
+nav a:hover,
+.active {
+    background-color: #FFFFFF;
+    opacity: 1.0;
+}
